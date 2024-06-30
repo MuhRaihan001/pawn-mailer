@@ -8,7 +8,7 @@ this code allow you to send email with PawnRequest sycn with js server
 - install pawn-request (github southclaws)
 
 #Ussage
-```js
+```c++
 #include <mailer>
 
 main(){
