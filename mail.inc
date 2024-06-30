@@ -1,6 +1,7 @@
 new RequestsClient:client;
+forward SendEmail(const to[], const subject[], const message[]);
 
-public: SendEmail(const to[], const subject[], const message[])
+public SendEmail(const to[], const subject[], const message[])
 {
     client = RequestsClient("http://localhost:8080/");
     
